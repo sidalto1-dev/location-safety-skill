@@ -114,15 +114,19 @@ graph TB
     subgraph "Self-Check"
         DISK[💾 Disk Space]
         MEM[🧠 Memory]
-        NET[🌐 Network]
+        NET[🌐 Tailscale Status]
         ENV[🌍 Environment<br/>Weather at home location]
     end
     
     DISK -->|>85% full| WARN[⚠️ Alert owner]
     MEM -->|<40% free| WARN
-    NET -->|Disconnected| WARN
+    NET -->|VPN down<br/>but internet up| WARN
     ENV -->|Danger at home| WARN
+    
+    style NET fill:#ffeb3b
 ```
+
+> ⚠️ **Note:** If the internet is fully down, I obviously can't alert you. But I *can* detect partial failures (e.g., Tailscale VPN down while internet is up) and warn you before things get worse.
 
 ## Architecture
 
