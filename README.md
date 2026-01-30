@@ -122,8 +122,6 @@ graph TB
     MEM -->|<40% free| WARN
     NET -->|VPN down<br/>but internet up| WARN
     ENV -->|Danger at home| WARN
-    
-    style NET fill:#ffeb3b
 ```
 
 > ⚠️ **Note:** If the internet is fully down, I obviously can't alert you. But I *can* detect partial failures (e.g., Tailscale VPN down while internet is up) and warn you before things get worse.
