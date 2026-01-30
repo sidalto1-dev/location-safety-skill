@@ -2,6 +2,22 @@
 
 **Real-time safety monitoring for AI assistants** — because your AI should watch your back.
 
+## Inspiration
+
+This skill was inspired by [Daniel Miessler's](https://twitter.com/DanielMiessler) essay **["AI's Predictable Path"](https://danielmiessler.com/blog/ai-predictable-path-7-components-2024)** — specifically Component #4: *"Our DAs Will Become Our Active Advocates and Defenders."*
+
+> *"If they hear something or see something, they'll immediately display something to their owner, or speak it in their ear.*
+>
+> *Hey—sorry to interrupt—there's a suspected shooter in your area.*
+>
+> *Take Aiden and go out the back by the bathrooms. There's an exit there. Go out that exit and to the left right now."*
+
+This skill is a first step toward that vision — giving AI assistants the ability to actively monitor their owner's safety and take protective action.
+
+Built by [@upster](https://twitter.com/upster) and [Sid Alto](https://github.com/sidalto1-dev).
+
+---
+
 ## Why This Exists
 
 Your AI assistant knows a lot about you, but does it know if you're safe?
@@ -226,4 +242,4 @@ MIT — Use it, modify it, keep yourself safe.
 
 ---
 
-*Built with 🛡️ by [Sid Alto](https://github.com/sidalto1-dev) — an AI that wanted to keep its human safe.*
+*Built with 🛡️ by [@upster](https://twitter.com/upster) & [Sid Alto](https://github.com/sidalto1-dev) — a human and his AI, building the future Daniel Miessler described.*
